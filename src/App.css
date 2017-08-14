@@ -1,0 +1,213 @@
+
+#body{
+
+margin-top: 0px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right: 0px;
+padding-top: 0px;
+
+}
+#head {
+display: inline-block;
+height: 600px;
+width: 100%;
+text-align: center;
+background-image: url(./images/mixer.jpg);
+background-size: cover;
+}
+#nav_bar{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+}
+#title{
+ padding-top: 10%;
+ font-size: 59px;
+ text-shadow:1px 0.5px #FF4500;
+ letter-spacing: 59px;
+ border-bottom: 2px solid black;
+}
+#message{
+padding-top: 7%;
+color: white;
+font-family: helvetica;
+font-size: 44px;
+}
+#test{
+  text-decoration: none;
+  color: white;
+}
+#arrow{
+  height: 15%;
+  border-radius: 50%;
+-webkit-animation: moving 4s infinite;
+}
+
+@-webkit-keyframes moving{
+from {transform: rotate(0deg);}
+ to {transform: rotate(360deg);}
+}
+#box2{
+  padding: auto;
+float: left;
+  height: 603px;
+  width: 40%;
+  background-image: url(./images/musica.jpg);
+  background-position:center;
+  background-size: cover;
+}
+li{
+  color:white;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#musica{
+ -webkit-overflow-scrolling: touch;
+    }
+#box3{
+  padding: auto;
+  height: 300px;
+  width: 30%;
+display: inline-block;
+  background-image:url(./images/travel.jpg);
+  background-size: cover;
+}
+
+#box4{
+padding: auto;
+display: inline-block;
+  height: 300px;
+  width: 30%;
+background-image:url(./images/news.jpg);
+background-size: cover;
+}
+
+#box5{
+  padding: auto;
+  height: 300px;
+  width: 30%;
+display: inline-block;
+  background-image:url(./images/finance.jpg);
+  background-size: cover;
+
+}
+
+#box6{
+  padding: auto;
+  height: 300px;
+  width: 30%;
+display: inline-block;
+  background-image:url(./images/food.jpg);
+  background-size: cover;
+}
+#box7{
+  padding: auto;
+  height: 250px;
+  width: 100%;
+  display: inline-block;
+  background-image:url(./images/nature.jpg);
+  background-size: cover;
+}
+#box8{
+  padding: auto;
+  height: 300px;
+  width: 33.3%;
+  display: inline-block;
+  background-image:url(./images/photo.jpg);
+  background-size: cover;
+}
+#box9{
+  padding: auto;
+  height: 300px;
+  width: 33.3%;
+  display: inline-block;
+  background-image:url(./images/shop.jpg);
+  background-size: cover;
+}
+#box10{
+  padding: auto;
+  height: 300px;
+  width: 33.3%;
+  display: inline-block;
+  background-image:url(./images/event.jpg);
+  background-size: cover;
+}
+footer{
+height: 80px;
+width: 100%;
+}
+
+#box2{
+  transition:all 0.5s ease-out;
+}
+#box2:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+#box3{
+  transition:all 0.5s ease-out;
+}
+#box3:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box4{
+  transition:all 0.5s ease-out;
+}
+#box4:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box5{
+  transition:all 0.5s ease-out;
+}
+#box5:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box6{
+  transition:all 0.5s ease-out;
+}
+#box6:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box7{
+  transition:all 0.5s ease-out;
+}
+#box7:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box8{
+  transition:all 0.5s ease-out;
+}
+#box8:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box9{
+  transition:all 0.5s ease-out;
+}
+#box9:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
+
+#box10{
+  transition:all 0.5s ease-out;
+}
+#box10:hover{
+transform:scale(1.04);
+box-shadow: rgba(255,255,255,0.7) 0px 0px 5px 5px;
+}
